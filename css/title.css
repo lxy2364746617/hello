@@ -1,0 +1,86 @@
+#title{
+    width: 100%;
+    height: 50px;
+    background-color: #282c31;
+    display: flex;
+    position: relative;
+}
+#title_left{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#title_left_font{
+    width: 150px;
+    height: 70%;
+    margin-left: 20px;
+    font-size: 25px;
+    color: white;
+    padding-top: 3px;
+}
+.title_right{
+     width: 80px;
+     height: 100%;
+ }
+.title_right_img {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+}
+#title_right_img_click {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+}
+#title_menu{
+    width: 180px;
+    height: 255px;
+    background-color: #393a3f;
+    position: absolute;
+    top: 68px;
+    right: 20px;
+    display: none;
+    z-index: 10000;
+}
+.title_menu_under{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+#triangle{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #393a3f;
+    position: absolute;
+    top: -18px;
+    right: 10px;
+}
+.title_menu_under_left{
+    flex: 3;
+    height: 100%;
+}
+.title_menu_under_image{
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-size: cover;
+}
+.title_menu_under_right{
+    flex: 7;
+    height: 100%;
+}
+.title_menu_under_font{
+    width: 100%;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#checkbox_1:checked ~ title{transform: translateX(380px);}

@@ -1,0 +1,94 @@
+#no_internet{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #ffeeee;
+}
+#no_internet_left{
+    width: 50px;
+    height: 100%;
+}
+#no_internet_img{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/small/感叹号.svg);
+}
+#no_internet_right{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#no_internet_font{
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    margin-top: 15px;
+}
+.dynamic_chat{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+}
+.dynamic_chat_left{
+    width: 60px;
+    height: 100%;
+}
+.dynamic_chat_img{
+    width: 45px;
+    height: 45px;
+    background-position: center;
+    background-size: cover;
+}
+.dynamic_chat_right{
+    flex: 1;
+    height: 60px;
+    display: flex;
+}
+.dynamic_chat_right_left {
+    flex: 8;
+    height: 100%;
+}
+.dynamic_chat_right_left_top{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.dynamic_chat_right_left_bottom{
+    width: 100%;
+    height: 30px;
+    color: #8b8b8b;
+}
+.dynamic_chat_right_right{
+    flex: 2;
+    height: 100%
+}
+.dynamic_chat_right_right_top{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: #8b8b8b;
+}
+.dynamic_chat_right_right_bottom{
+    width: 100%;
+    height: 35px;
+}
+.dynamic_chat_right_right_img{
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+}
+a{
+    color: red;
+    font-weight: bold;
+}

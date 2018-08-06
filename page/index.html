@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>微信首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/container.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/single.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/title.css">
+</head>
+<body>
+<div id="container">
+    <div id="single">
+        <div id="single_left">
+            <div id="single_left_font">中国移动4G</div>
+        </div>
+        <div id="single_right">
+            <div id="single_right_signal" class="xy-center">
+                <div id="single_right_signal_border">
+                    <div id="signal1"></div>
+                    <div id="signal2"></div>
+                    <div id="signal3"></div>
+                    <div id="signal4"></div>
+                </div>
+            </div>
+            <div id="single_right_battery" class="xy-center">
+                <div id="single_right_battery_border_big">
+                    <div id="single_right_battery_in" class="charging"></div>
+                </div>
+                <div id="single_right_battery_border_small"></div>
+            </div>
+            <div id="single_right_time">5:21</div>
+        </div>
+    </div>
+    <div id="title"></div>
+    <div id="dynamic"></div>
+    <div id="menu">
+        <div id="menu_chat" class="menu_item" data-page="../page/dynamic/dynamic-chat.html">
+            <div class="menu_top xy-center">
+                <div class="menu_img " style="background-image: url(../image/small/对话.svg)"></div>
+            </div>
+            <div class="menu_bottom">
+                <div class="menu_font"><b>微信</b></div>
+            </div>
+        </div>
+        <div id="menu_contacts" class="menu_item" data-page="../page/dynamic/dynamic-contact.html">
+            <div class="menu_top xy-center">
+                <div class="menu_img " style="background-image: url(../image/small/通讯录.svg)"></div>
+            </div>
+            <div class="menu_bottom">
+                <div class="menu_font">通讯录</div>
+            </div>
+        </div>
+        <div id="menu_found" class="menu_item" data-page="../page/dynamic/dynamic-find.html">
+            <div class="menu_top xy-center">
+                <div id="menu_found_img" style="background-image: url(../image/small/发现.svg)">
+                    <div id="red_circle"></div>
+                </div>
+            </div>
+            <div class="menu_bottom">
+                <div class="menu_font">发现</div>
+            </div>
+        </div>
+        <div id="menu_me" class="menu_item" data-page="../page/dynamic/dynamic-me.html">
+            <div class="menu_top xy-center">
+                <div class="menu_img " style="background-image: url(../image/small/我.svg)"></div>
+            </div>
+            <div class="menu_bottom">
+                <div class="menu_font">我</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="../../../resource/jquery/jquery.js"></script>
+<script src="../js/router.js"></script>
+
